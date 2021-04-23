@@ -1,0 +1,191 @@
+body {
+  font-family: Montserrat;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+  /* Padding order: top, left & right, and bottom */
+}
+
+/* Background */
+.colored-background {
+  background-color: #4A86C5;
+  color: white;
+}
+
+.white-background {
+  background-color: white;
+  color: black;
+}
+
+/* Navagation Bar Start */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* Navagation Bar End */
+span {
+  font-weight: lighter;
+}
+
+/* Download Buttons */
+.download-button {
+  margin-top: 50px;
+  transition-timing-function: ease-in-out;
+}
+
+/* Title Section */
+#title .container-fluid {
+  padding: 2% 14% 15%;
+  text-align: left;
+}
+
+/* Title Image */
+.title-image {
+  width: 60%;
+  left: 10%;
+  transform: rotate(26deg);
+  /* Rotating with a negative deg (-) will rotate the opposite direction */
+  position: absolute;
+}
+
+/* Features Seceiton */
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.feature-title {
+  font-size: 2.5rem;
+}
+
+.feature-items {
+  padding: 5%;
+}
+
+/* Icons */
+.icon {
+  color: #52ABEE;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #78E6C7;
+}
+
+/* Testimonials Seceion */
+#testimonials {
+  background-color: #78E6C7;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #78E6C7;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Secetion */
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.pricing-btn {
+  transition-timing-function: ease-in-out;
+}
+
+.pricing-btn:hover {
+  color: #4A86C5;
+  background-color: white;
+}
+
+.pricing-btn-outline {
+  color: #4A86C5;
+  border-color: #4A86C5;
+  background-color: white;
+  transition-timing-function: ease-in-out;
+}
+
+.pricing-btn-outline:hover {
+  color: white;
+  background-color: #4A86C5;
+}
+
+/* FOOTER */
+.social-icon {
+  margin: 20px 10px;
+}
+
+.social-icon:hover {
+  color: #78E6C7;
+}
+
+@media (max-width: 1275px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
